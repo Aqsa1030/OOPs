@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 class Rectangle {
 private:
     int width;
@@ -19,6 +19,6 @@ public:
 int main() {
     Rectangle rect;
     rect.setDimensions(5, 10);
-    std::cout << "Area: " << rect.area() << std::endl;
+    cout << "Area: " << rect.area() << std::endl;
     return 0;
 }
