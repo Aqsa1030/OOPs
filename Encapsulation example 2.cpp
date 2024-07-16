@@ -4,7 +4,7 @@ class Factorial {
 private:
     int number;
 
-    // Private method to calculate factorial
+    // Calculate factorial
     long long calculateFactorial(int n) {
         if (n <= 1) return 1;
         return n * calculateFactorial(n - 1);
@@ -16,7 +16,7 @@ public:
         number = num;
     }
 
-    // Public method to get the factorial
+    // Public which calculate factorial
     long long getFactorial() {
         return calculateFactorial(number);
     }
