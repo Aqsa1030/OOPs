@@ -1,12 +1,11 @@
 #include <iostream>
 using namespace std;
-// Abstract class
+
 class Animal {
 public:
-    virtual void makeSound() const = 0; // Pure virtual function
+    virtual void makeSound() const = 0; 
 };
 
-// Concrete derived classes
 class Dog : public Animal {
 public:
     void makeSound() const override {
