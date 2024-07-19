@@ -1,16 +1,15 @@
 #include <iostream>
 using namespace std;
-// Abstract class
+
 class Vehicle {
 public:
-    virtual void start() const = 0; // Pure virtual function
+    virtual void start() const = 0; 
 };
 
-// Concrete derived classes
 class Car : public Vehicle {
 public:
     void start() const override {
-        std::cout << "Car started." << std::endl;
+        cout << "Car started." << endl;
     }
 };
 
