@@ -1,10 +1,9 @@
 #include <iostream>
 using namespace std;
 
-// Base class
 class Animal {
 public:
-    // Virtual function
+    // Function
     virtual void makeSound() {
         cout << "Animal makes a sound" << endl;
     }
