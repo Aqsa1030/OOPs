@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Function to add integers
 int add(int a, int b) {
     return a + b;
 }
