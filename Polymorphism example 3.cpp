@@ -24,15 +24,13 @@ public:
 
 int main() {
     Shape* shape;
-
     Circle circle;
     Rectangle rectangle;
-
     shape = &circle;
     shape->draw();  // Outputs "Drawing Circle"
 
     shape = &rectangle;
-    shape->draw();  // Outputs "Drawing Rectangle"
+    shape->draw();  
 
     return 0;
 }
