@@ -26,11 +26,11 @@ int main() {
     Shape* shape;
     Circle circle;
     Rectangle rectangle;
+    
     shape = &circle;
-    shape->draw();  // Outputs "Drawing Circle"
+    shape->draw();  
 
     shape = &rectangle;
     shape->draw();  
-
     return 0;
 }
