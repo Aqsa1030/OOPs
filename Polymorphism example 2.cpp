@@ -22,7 +22,6 @@ int main() {
     Dog dog;
 
     ptrAnimal = &dog;
-    ptrAnimal->makeSound();  // Outputs "Dog barks"
-
+    ptrAnimal->makeSound();  
     return 0;
 }
