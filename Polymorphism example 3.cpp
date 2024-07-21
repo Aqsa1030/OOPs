@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Abstract base class
 class Shape {
 public:
     // Pure virtual function (making this class abstract)
