@@ -9,10 +9,9 @@ public:
     }
 };
 
-// Derived class
 class Dog : public Animal {
 public:
-    // Override the virtual function
+    // Override Function
     void makeSound() override {
         cout << "Dog barks" << endl;
     }
