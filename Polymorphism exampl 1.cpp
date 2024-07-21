@@ -11,7 +11,8 @@ string add(string a, string b) // Function which concatenate two strings
 }
 
 int main() {
-    cout << add(5, 10) << endl;           // Outputs 15
-    cout << add("Hello, ", "world!") << endl;  // Outputs "Hello, world!"
+    cout << add(5, 10) << endl;           
+    cout << add("Hello, ", "world!") << endl;  
+    
     return 0;
 }
