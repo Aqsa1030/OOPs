@@ -5,8 +5,8 @@ int add(int a, int b) {
     return a + b;
 }
 
-// Function to concatenate strings
-string add(string a, string b) {
+string add(string a, string b) // Function which concatenate two strings
+{
     return a + b;
 }
 
