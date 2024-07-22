@@ -4,19 +4,19 @@
 using namespace std;
 class Logger {
 public:
-    void logError(const std::string& errorMessage) {
-        std::ofstream logFile("error.log", std::ios::app);
-        logFile << "Error: " << errorMessage << std::endl;
+    void logError(const string& errorMessage) {
+        ofstream logFile("error.log", ios::app);
+        logFile << "Error: " << errorMessage << endl;
         logFile.close();
     }
 
-    void authenticateUser(const std::string& username, const std::string& password) {
-        // Simulated authentication logic
+    void authenticateUser(const string& username, const string& password) {
+        
         if (username == "admin" && password == "password123") {
-            std::cout << "Authentication successful!" << std::endl;
+            cout << "Authentication successful!" << std::endl;
         }
         else {
-            std::cout << "Authentication failed!" << std::endl;
+            cout << "Authentication failed!" << std::endl;
         }
     }
 };
