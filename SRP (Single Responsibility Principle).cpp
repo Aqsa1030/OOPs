@@ -32,19 +32,17 @@ public:
 
 class Authenticator {
 public:
-    void authenticateUser(const std::string& username, const std::string& password) {
-        // Simulated authentication logic
+    void authenticateUser(const string& username, const string& password) {
         if (username == "admin" && password == "password123") {
-            std::cout << "Authentication successful!" << std::endl;
+            cout << "Authentication successful!" << endl;
         }
         else {
-            std::cout << "Authentication failed!" << std::endl;
+            cout << "Authentication failed!" << endl;
         }
     }
 };
 
 int main() {
-    // Example usage after refactoring:
     FileLogger logger;
     Authenticator authenticator;
 
