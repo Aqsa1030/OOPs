@@ -2,6 +2,7 @@
 #include <fstream>
 #include <string>
 using namespace std;
+
 class Logger   // Responsible for logging error message
 {
 public:
