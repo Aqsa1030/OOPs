@@ -49,7 +49,7 @@ int main() {
     FileLogger logger;
     Authenticator authenticator;
 
-    logger.logError("Something went wrong!");
+    logger.logError("Something went wrong!"); //Logs an error message using filelogger instance
 
     authenticator.authenticateUser("admin", "password123");
 
