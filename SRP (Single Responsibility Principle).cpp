@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-
+using namespace std;
 class Logger {
 public:
     void logError(const std::string& errorMessage) {
