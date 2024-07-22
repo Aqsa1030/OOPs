@@ -32,6 +32,7 @@ public:
     }
 };
 
+
 class Authenticator {
 public:
     void authenticateUser(const string& username, const string& password) {
