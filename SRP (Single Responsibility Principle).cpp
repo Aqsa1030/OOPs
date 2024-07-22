@@ -2,7 +2,6 @@
 #include <fstream>
 #include <string>
 
-// Example of violating SRP:
 class Logger {
 public:
     void logError(const std::string& errorMessage) {
