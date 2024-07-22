@@ -13,20 +13,19 @@ public:
     void authenticateUser(const string& username, const string& password) {
         
         if (username == "admin" && password == "password123") {
-            cout << "Authentication successful!" << std::endl;
+            cout << "Authentication successful!" << endl;
         }
         else {
-            cout << "Authentication failed!" << std::endl;
+            cout << "Authentication failed!" << endl;
         }
     }
 };
 
-// Refactored to adhere to SRP:
 class FileLogger {
 public:
     void logError(const std::string& errorMessage) {
-        std::ofstream logFile("error.log", std::ios::app);
-        logFile << "Error: " << errorMessage << std::endl;
+        ofstream logFile("error.log", ios::app);
+        logFile << "Error: " << errorMessage << endl;
         logFile.close();
     }
 };
