@@ -2,7 +2,8 @@
 #include <fstream>
 #include <string>
 using namespace std;
-class Logger {
+class Logger   // Responsible for logging error message
+{
 public:
     void logError(const string& errorMessage) {
         ofstream logFile("error.log", ios::app);
