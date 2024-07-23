@@ -11,12 +11,12 @@ public:
     void draw() const override {
         cout << "Drawing Circle" << endl;
     }
-}
+};
 
 class Rectangle : public Shape {
 public:
     void draw() const override {
-        std::cout << "Drawing Rectangle" << std::endl;
+        cout << "Drawing Rectangle" << endl;
     }
 };
 
