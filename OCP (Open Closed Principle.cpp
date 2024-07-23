@@ -29,6 +29,5 @@ int main() {
     for (auto shape : shapes) {
         shape->draw();
     }
-
     return 0;
 }
