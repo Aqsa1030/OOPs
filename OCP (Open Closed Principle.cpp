@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 class Shape {
 public:
     virtual void draw() const = 0; // Open for extension
