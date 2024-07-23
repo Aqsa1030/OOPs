@@ -4,7 +4,6 @@ class Shape {
 public:
     virtual void draw() const = 0; // Open for extension
 };
-
 class Circle : public Shape {
 public:
     void draw() const override {
