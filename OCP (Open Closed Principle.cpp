@@ -10,7 +10,6 @@ public:
         cout << "Drawing Circle" << endl;
     }
 };
-
 class Rectangle : public Shape {
 public:
     void draw() const override {
