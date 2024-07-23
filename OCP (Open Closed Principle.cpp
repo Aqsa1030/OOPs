@@ -23,9 +23,7 @@ public:
 int main() {
     Circle circle;
     Rectangle rectangle;
-
     Shape* shapes[] = { &circle, &rectangle };
-
     for (auto shape : shapes) {
         shape->draw();
     }
