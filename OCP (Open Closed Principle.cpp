@@ -1,13 +1,11 @@
 #include <iostream>
 using namespace std;
 
-
 class Shape {
 public:
     virtual void draw() const = 0; // Open for extension
 };
 
-// Derived classes (open for extension)
 class Circle : public Shape {
 public:
     void draw() const override {
