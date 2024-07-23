@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-// Base class (closed for modification)
+
+
 class Shape {
 public:
     virtual void draw() const = 0; // Open for extension
