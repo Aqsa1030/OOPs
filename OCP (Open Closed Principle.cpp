@@ -9,9 +9,9 @@ public:
 class Circle : public Shape {
 public:
     void draw() const override {
-        std::cout << "Drawing Circle" << std::endl;
+        cout << "Drawing Circle" << endl;
     }
-};
+}
 
 class Rectangle : public Shape {
 public:
