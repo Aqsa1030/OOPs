@@ -5,7 +5,7 @@ using namespace std;
 class Bird {
 public:
     virtual void fly() const {
-        std::cout << "Flying at a normal speed.\n";
+        cout << "Flying at a normal speed.\n";
     }
 };
 
