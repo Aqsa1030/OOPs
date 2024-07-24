@@ -17,7 +17,6 @@ public:
     }
 };
 
-// Derived class representing an Ostrich
 class Ostrich : public Bird {
 public:
     void fly() const override {
