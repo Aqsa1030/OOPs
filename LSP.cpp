@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-// Base class representing a Bird
+
 class Bird {
 public:
     virtual void fly() const {
