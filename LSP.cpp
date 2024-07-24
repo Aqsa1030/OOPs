@@ -9,7 +9,6 @@ public:
     }
 };
 
-// Derived class representing a Duck
 class Duck : public Bird {
 public:
     void fly() const override {
