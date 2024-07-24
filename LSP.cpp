@@ -33,7 +33,7 @@ int main() {
     Ostrich ostrich;
 
     makeBirdFly(duck);    // Output: Flying like a duck.
-    makeBirdFly(ostrich); // Output: Ostriches cannot fly.
+    makeBirdFly(ostrich); 
 
     return 0;
 }
