@@ -32,7 +32,7 @@ int main() {
     Duck duck;
     Ostrich ostrich;
 
-    makeBirdFly(duck);    // Output: Flying like a duck.
+    makeBirdFly(duck);    
     makeBirdFly(ostrich); 
 
     return 0;
