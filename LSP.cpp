@@ -12,7 +12,7 @@ public:
 class Duck : public Bird {
 public:
     void fly() const override {
-        std::cout << "Flying like a duck.\n";
+        cout << "Flying like a duck.\n";
     }
 };
 
