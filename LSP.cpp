@@ -29,11 +29,10 @@ void makeBirdFly(const Bird& bird) {
 }
 
 int main() {
+    
     Duck duck;
     Ostrich ostrich;
-
     makeBirdFly(duck);    
     makeBirdFly(ostrich); 
-
     return 0;
 }
