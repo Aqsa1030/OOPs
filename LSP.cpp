@@ -20,7 +20,7 @@ public:
 class Ostrich : public Bird {
 public:
     void fly() const override {
-        std::cout << "Ostriches cannot fly.\n";
+        cout << "Ostriches cannot fly.\n";
     }
 };
 
