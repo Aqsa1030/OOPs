@@ -28,7 +28,6 @@ public:
     }
 };
 
-// Interface for a Machine
 class Machine {
 public:
     virtual void print() = 0;
