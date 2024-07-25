@@ -52,7 +52,7 @@ int main() {
     PrinterMachine printer;
 
     operate(textDocument);  // Operate on TextDocument
-    // operate(printer);    // Error: PrinterMachine doesn't implement all methods of Document
+    // operate(printer);    
 
     return 0;
 }
