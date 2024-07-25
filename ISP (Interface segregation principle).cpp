@@ -33,15 +33,13 @@ public:
     virtual void print() = 0;
 };
 
-// Class implementing a PrinterMachine
 class PrinterMachine : public Machine {
 public:
     void print() override {
-        std::cout << "Printing from the printer." << std::endl;
+        cout << "Printing from the printer." << endl;
     }
 };
 
-// Function demonstrating usage
 void operate(Document& document) {
     document.open();
     document.print();
