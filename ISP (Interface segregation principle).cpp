@@ -20,11 +20,11 @@ public:
     }
 
     void save() override {
-        std::cout << "Saving text document." << std::endl;
+        cout << "Saving text document." << endl;
     }
 
     void print() override {
-        std::cout << "Printing text document." << std::endl;
+        cout << "Printing text document." << endl;
     }
 };
 
