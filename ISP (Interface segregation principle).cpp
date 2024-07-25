@@ -16,7 +16,7 @@ public:
     }
 
     void close() override {
-        std::cout << "Closing text document." << std::endl;
+        cout << "Closing text document." << endl;
     }
 
     void save() override {
