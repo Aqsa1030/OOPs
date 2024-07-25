@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// Interface for a document
+
 class Document {
 public:
     virtual void open() = 0;
