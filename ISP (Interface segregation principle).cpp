@@ -51,8 +51,7 @@ int main() {
     TextDocument textDocument;
     PrinterMachine printer;
 
-    operate(textDocument);  // Operate on TextDocument
+    operate(textDocument);  
     // operate(printer);    
-
     return 0;
 }
