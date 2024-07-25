@@ -9,7 +9,6 @@ public:
     virtual void print() = 0;
 };
 
-// Class implementing a TextDocument
 class TextDocument : public Document {
 public:
     void open() override {
