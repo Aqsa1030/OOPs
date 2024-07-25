@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 // Interface for a document
 class Document {
 public:
