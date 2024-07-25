@@ -12,7 +12,7 @@ public:
 class TextDocument : public Document {
 public:
     void open() override {
-        std::cout << "Opening text document." << std::endl;
+        cout << "Opening text document." << endl;
     }
 
     void close() override {
