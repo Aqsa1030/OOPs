@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 
-// Low-level module
 class EmailSender {
 public:
     void sendEmail(const std::string& message) {
