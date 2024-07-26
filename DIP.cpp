@@ -16,9 +16,7 @@ public:
     void notify(const std::string& message) {
         emailSender.sendEmail(message);
     }
-};
-
-int main() {
+};int main() {
     NotificationService service;
     service.notify("Hello, Dependency Inversion Principle!");
     return 0;
