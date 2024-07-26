@@ -5,7 +5,7 @@ using namespace std;
 class EmailSender {
 public:
     void sendEmail(const string& message) {
-        std::cout << "Sending email: " << message << std::endl;
+        cout << "Sending email: " << message << endl;
     }
 };
 
