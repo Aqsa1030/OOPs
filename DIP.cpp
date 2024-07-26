@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+using namespace std;
 class EmailSender {
 public:
     void sendEmail(const std::string& message) {
