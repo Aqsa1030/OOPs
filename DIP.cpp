@@ -11,7 +11,7 @@ public:
 
 class NotificationService {
 private:
-    EmailSender emailSender; // Direct dependency on EmailSender
+    EmailSender emailSender; 
 public:
     void notify(const std::string& message) {
         emailSender.sendEmail(message);
