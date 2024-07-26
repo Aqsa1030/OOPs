@@ -9,7 +9,6 @@ public:
     }
 };
 
-// High-level module
 class NotificationService {
 private:
     EmailSender emailSender; // Direct dependency on EmailSender
