@@ -50,7 +50,6 @@ void operate(Document& document) {
 int main() {
     TextDocument textDocument;
     PrinterMachine printer;
-
     operate(textDocument);  
     // operate(printer);    
     return 0;
