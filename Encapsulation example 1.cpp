@@ -19,6 +19,7 @@ public:
 
 int main() {
     Rectangle rect;
+    
     rect.setDimensions(5, 10);
     cout << "Area: " << rect.area() << std::endl;
     return 0;
