@@ -3,7 +3,7 @@ using namespace std;
 
 class Shape {
 public:
-    virtual void draw() const = 0; // Open for extension
+    virtual void draw() const = 0; 
 };
 
 class Circle : public Shape {
