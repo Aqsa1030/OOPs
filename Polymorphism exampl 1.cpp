@@ -5,7 +5,7 @@ int add(int a, int b) {
     return a + b;
 }
 
-string add(string a, string b) // Function which concatenate two strings
+string add(string a, string b) 
 {
     return a + b;
 }
