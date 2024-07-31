@@ -21,6 +21,6 @@ int main()
     cout << "Length = " << length;
 
     // Accessing characters of string
-    char first_Character = str1[8];
+    char first_Character = str1[10];
     cout << first_Character << endl;
 }
