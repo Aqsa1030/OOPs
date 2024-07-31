@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-class Logger   // Responsible for logging error message
+class Logger   
 {
 public:
     void logError(const string& errorMessage) {
