@@ -23,7 +23,6 @@ public:
     }
 };
 
-// Function to make a bird fly
 void makeBirdFly(const Bird& bird) {
     bird.fly();
 }
