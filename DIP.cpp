@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 class EmailSender {
 public:
     void sendEmail(const string& message) {
